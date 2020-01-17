@@ -22,3 +22,11 @@ https://github.com/zeit/next-learn-demo
 - `pages`ディレクトリにcomponentを入れることもできる
     - componentへの直接的なURLが必要ない場合は`pages`ディレクトリに入れない
 - common layout component
+
+
+### Create Dynamic Pages
+
+- クエリ文字列を介してデータを渡す
+- [useRouter](https://nextjs.org/docs/api-reference/next/router#userouter) hook
+    - `router` object access
+    - React Hook -> it cannot be used with classes
