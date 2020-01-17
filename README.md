@@ -52,3 +52,6 @@ https://github.com/zeit/next-learn-demo
 ### Styling Components
 - `<style jsx>`
     - Styles should go inside template strings
+- Nested Component
+    - CSS rules have no effect on elements inside of a child component
+        - Componentの中に styleを入れればよい
