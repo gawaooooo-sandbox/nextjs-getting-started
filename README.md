@@ -48,3 +48,7 @@ https://github.com/zeit/next-learn-demo
     - 直接post pageに遷移したときは、server側がデータを取りに行く
 - [Data fetching](https://nextjs.org/docs/basic-features/data-fetching)
     - [Static Generation](https://nextjs.org/docs/basic-features/data-fetching#static-generation)
+
+### Styling Components
+- `<style jsx>`
+    - Styles should go inside template strings
