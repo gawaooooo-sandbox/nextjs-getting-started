@@ -30,3 +30,7 @@ https://github.com/zeit/next-learn-demo
 - [useRouter](https://nextjs.org/docs/api-reference/next/router#userouter) hook
     - `router` object access
     - React Hook -> it cannot be used with classes
+
+### Clean URLs with Dynamic Routing
+- [DynamicRoutes](https://nextjs.org/docs/routing/dynamic-routes)
+- 動的ルーティングはブラウザ履歴でうまく機能する
