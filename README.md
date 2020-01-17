@@ -29,6 +29,7 @@ https://github.com/zeit/next-learn-demo
 - クエリ文字列を介してデータを渡す
 - [useRouter](https://nextjs.org/docs/api-reference/next/router#userouter) hook
     - `router` object access
+        - query取得したり
     - React Hook -> it cannot be used with classes
 
 ### Clean URLs with Dynamic Routing
@@ -42,3 +43,8 @@ https://github.com/zeit/next-learn-demo
     - you can add into any page in your app.
     - fetch data and send them as props to our page
     - server側でfetchしてデータを取得している場合は、clientでサイド取りに行くことはない（reloadしたとき)
+- Fetch Data in Client Side
+    - `<Link>` componentはbrowserないで遷移。serverにrequest送らない
+    - 直接post pageに遷移したときは、server側がデータを取りに行く
+- [Data fetching](https://nextjs.org/docs/basic-features/data-fetching)
+    - [Static Generation](https://nextjs.org/docs/basic-features/data-fetching#static-generation)
