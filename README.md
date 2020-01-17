@@ -34,3 +34,11 @@ https://github.com/zeit/next-learn-demo
 ### Clean URLs with Dynamic Routing
 - [DynamicRoutes](https://nextjs.org/docs/routing/dynamic-routes)
 - 動的ルーティングはブラウザ履歴でうまく機能する
+
+### Fetching Data for Pages
+- standard API to fetch data for pages
+- async function called `getInitialProps`
+- `getInitialProps` needs to work on both server and client
+    - you can add into any page in your app.
+    - fetch data and send them as props to our page
+    - server側でfetchしてデータを取得している場合は、clientでサイド取りに行くことはない（reloadしたとき)
