@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-getting-started",
+  "version": "1.0.0",
+  "description": "Next.js tutorial",
+  "main": "index.js",
+  "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gawaooooo-sandbox/nextjs-getting-started.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gawaooooo-sandbox/nextjs-getting-started/issues"
+  },
+  "homepage": "https://github.com/gawaooooo-sandbox/nextjs-getting-started#readme",
+  "dependencies": {
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
