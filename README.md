@@ -55,3 +55,8 @@ https://github.com/zeit/next-learn-demo
 - Nested Component
     - CSS rules have no effect on elements inside of a child component
         - Componentの中に styleを入れればよい
+- Styling Components
+    - recommend trying to write scoped styles
+- [styled-jsx](https://github.com/zeit/styled-jsx)
+- [CSS-in-JS](https://nextjs.org/docs/basic-features/built-in-css-support#css-in-js)
+- [with-styled-components](https://github.com/zeit/next.js/tree/canary/examples/with-styled-components)
